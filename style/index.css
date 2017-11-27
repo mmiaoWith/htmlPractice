@@ -1,0 +1,85 @@
+#container{
+	width: 1002px;
+}
+#header{
+	height: 128px;
+	background: gray url("../images/top_bg.jpg");
+}
+#nav li{
+	width: 90px;
+	margin-right: 1px;
+	float: left;
+}
+#nav a{
+	color: #3636;
+	font-size: 16px;
+	font-family: '微软雅黑';
+	display: block;
+	width: 90px;
+	height: 37px;
+	text-align: center;
+}
+#nav a:hover{
+	color: white;
+	background: url(../images/nav_on.gif);
+}
+
+#main{
+	height: 600px;
+}
+
+#lside{
+	height: 483px;
+	width: 694px;
+	border: 1px solid gray;
+	background: blue;
+	float: left;
+}
+.subtitle{
+	height: 37px;
+	background: gray url(../images/index_main_top_bg.gif);
+}
+.subtitle img{
+	margin: 5px 0 0 10px;
+	float: left;
+}
+.subtitlt h1{
+	float: left;
+	margin-left: 10px;
+	font-size: 16px;
+	font-family: 'Microsoft Yahei',SimHei,sans-sarif;
+
+}
+.subtitle a{
+	font-size: 12px;
+	color: gray;
+	float: right;
+}
+.four{
+	width: 326px;
+	height: 200px;
+	background: gray;
+	float: left;
+	margin: 10px;
+}
+.four img{
+	float: left;
+	margin: 10px 0px 0px 10px;
+	background: white;
+
+}
+.four ul{
+	float: left;
+}
+.four h2{
+	margin-left: 6px 0 6px 10px;
+	font-size: 12px;
+	font-family: 'Microsoft Yahei',SimHei,sans-sarif;
+
+}
+#rside{
+	height: 600px;
+	width: 294px;
+	background: green;
+	float: left;
+}
