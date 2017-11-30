@@ -32,7 +32,6 @@
 	height: 483px;
 	width: 694px;
 	border: 1px solid gray;
-	background: blue;
 	float: left;
 }
 .subtitle{
@@ -43,9 +42,9 @@
 	margin: 5px 0 0 10px;
 	float: left;
 }
-.subtitlt h1{
-	float: left;
+.subtitle h1{
 	margin-left: 10px;
+	float: left;
 	font-size: 16px;
 	font-family: 'Microsoft Yahei',SimHei,sans-sarif;
 
@@ -58,9 +57,14 @@
 .four{
 	width: 326px;
 	height: 200px;
-	background: gray;
+	background: #EEE;
 	float: left;
 	margin: 10px;
+}
+.four h2{
+	margin: 6px 0 6px 10px;
+	font-size: 16px;
+	font-family: 'Microsoft Yahei',SimHei,sans-sarif;
 }
 .four img{
 	float: left;
@@ -68,18 +72,35 @@
 	background: white;
 
 }
+.four li{
+	background: url(../images/service_intro_bg.gif) no-repeat;
+	margin-left: 10px;
+	padding-left: 10px;
+	height: 20px;
+}
 .four ul{
+	margin-top: 15px;
 	float: left;
 }
-.four h2{
-	margin-left: 6px 0 6px 10px;
-	font-size: 12px;
-	font-family: 'Microsoft Yahei',SimHei,sans-sarif;
-
+.four a{
+	color: black;
+}
+.four a:visited{
+	color: blue;
 }
 #rside{
 	height: 600px;
 	width: 294px;
 	background: green;
 	float: left;
+}
+#art{
+	background: #fff;
+	padding: 0 0 0 30px;
+	height: 29px;
+}
+#art li{
+	background: url(../images/article_head.gif) no-repeat;
+	padding-left: 30px;
+	height: 29px;
 }
