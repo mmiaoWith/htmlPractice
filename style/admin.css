@@ -1,0 +1,226 @@
+#container{
+    width: auto;
+    padding: 0 5% 0 5%;
+    background-color: pink;
+}
+#header{
+    height: 20%;
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+    background-color: blue;
+}
+#body{
+    height: 70%;
+    width: 100%;
+    float: left;
+    background-color: orange;
+}
+#footer{
+    height: 10%;
+    width: 100%;
+    float: left;
+    background-color: red;
+}
+#logo{
+    margin-left: 30px;
+    float: left;
+    background-color: grey;
+}
+#logout{
+    margin-right: 30px;
+    float: right;
+    background-color: yellow;
+}
+#body-left{
+    height: 30%;
+    width: 15%;
+    float: left;
+    background-color: white;
+}
+#body-right{
+    height: 800px;
+    width: 1000px;
+    float: right;
+    background-color: green;
+}
+#right-header{
+    height: 20px;
+    width: 1000px;
+    float: left;
+    background-color: red;
+}
+#nav-container{
+    height: 100px
+    width: 700px;
+    padding-top: 25px;
+    float: left;
+    background-color: pink;
+}
+#search{
+    height: 30px;
+    width:500px;
+    float: right;
+    margin: auto;
+    padding-top: 45px;   
+}
+#search-s{
+    height: 15px;
+    width:500px;
+    float: right;
+    margin: auto;    
+}
+#search-q{
+    height: 15px;
+    width:500px;
+    float: right;
+    margin: auto;    
+}
+#dbresult{
+    width: 200px;
+    height: 400px;
+    float: left;
+    background-color: blue;
+}
+#header-left{
+    height: 50%;
+    float: left;
+}
+#header-right{
+    height: 50%;
+    float: right;
+}
+h1{
+    text-align: center;
+}
+#top{
+    height: 40%;
+}
+table{
+    width: 60%;
+    border-collapse: collapse;
+}
+table,tr,td{
+    border: 1px solid black;
+}
+table tr:nth-child(odd){background:#AFEEEE;}
+table tr:nth-child(even){background:#FFFFE0;}
+tr{
+    height: 50px;
+}
+tr.top-row{
+    font-weight: bold;
+}
+tr.high-issue{
+    color: red;
+}
+tr.medium-issue{
+    color: orange;
+}
+tr.low-issue{
+    color: green;
+}
+tr.info-issue{
+    color: darkblue;
+}
+#bottom{
+    height: 60%;
+}
+#bottom-left{
+    height: 60%;
+    width: 35%;
+    float: left;
+}
+#bottom-right{
+    height: 60%;
+    width: 25%;
+    float: left;
+    padding: 5% 0 0 5%;
+}
+#report li{
+    padding-left: 10px;
+    height: 29px;
+}
+#report-container{
+    width: 100%;
+}
+#scandiv{
+    float: left;
+}
+a:hover {
+    color: blueviolet;
+}
+#submitButton{
+    background:#f89301;
+    height: 3em;
+    width: 6em;
+    line-height: 3em;
+    text-align: center;
+    display: block;
+    border: 2px solid #fff;
+    box-shadow: -1px 1px 1px rgba(51,51,51,.2);
+    -webkit-border-radius: 3em;
+    -moz-border-radius: 3em;
+    border-radius: 3em;
+}
+#launchNewScanButton{
+    background:#f89301;
+    height: 3em;
+    width: 12em;
+    line-height: 3em;
+    text-align: center;
+    display: block;
+    border: 2px solid #fff;
+    box-shadow: -1px 1px 1px rgba(51,51,51,.2);
+    -webkit-border-radius: 3em;
+    -moz-border-radius: 3em;
+    border-radius: 3em;
+}
+#backToDashboard{
+    background:#ababab;
+    height: 3em;
+    width: 15em;
+    line-height: 3em;
+    text-align: center;
+    display: block;
+    border: 2px solid #fff;
+    box-shadow: -1px 1px 1px rgba(51,51,51,.2);
+    -webkit-border-radius: 3em;
+    -moz-border-radius: 3em;
+    border-radius: 3em;
+}
+div#scan-container{
+    text-align: center;
+    width: auto;
+    height: auto;
+    border: 1em solid lightblue;
+}
+#nav{
+    height: 500px
+    width: 600px;
+    padding-top: 20px;
+}
+#nav li{
+    width: 170px;
+    margin-right: 1px;
+    float: left;
+}
+#nav button{
+    color: #3636;
+    display: block;
+    width: 150px;
+    height: 37px;
+    font-size: 16px;
+    line-height: 37px;
+    font-family: '微软雅黑';
+    text-align: center;
+}
+#nav button:hover{
+    color: white;
+    background: url(../images/nav_on.gif);
+}
+#dbresult{
+    width: 100px;
+    height: 150px;
+    background-color: grey;
+}
