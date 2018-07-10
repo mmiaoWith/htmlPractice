@@ -34,13 +34,13 @@
 }
 #body-left{
     height: 30%;
-    width: 15%;
+    width: 20%;
     float: left;
     background-color: white;
 }
 #body-right{
     height: 800px;
-    width: 1000px;
+    width: 80%;
     float: right;
     background-color: green;
 }
@@ -51,7 +51,7 @@
     background-color: red;
 }
 #nav-container{
-    height: 100px
+    height: 100px;
     width: 700px;
     padding-top: 25px;
     float: left;
@@ -77,9 +77,10 @@
     margin: auto;    
 }
 #dbresult{
-    width: 200px;
-    height: 400px;
-    float: left;
+    width: 98%;
+    height: 80%;
+	float:left;
+	margin:5px 5px auto 5px;
     background-color: blue;
 }
 #header-left{
@@ -218,9 +219,4 @@ div#scan-container{
 #nav button:hover{
     color: white;
     background: url(../images/nav_on.gif);
-}
-#dbresult{
-    width: 100px;
-    height: 150px;
-    background-color: grey;
 }
