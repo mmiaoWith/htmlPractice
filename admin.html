@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>这是我制作的登录页面</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./style/initial.css">
+	<link rel="stylesheet" href="./style/admin.css">
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<div id="logo">
+				<img src="./images/pic.jpg"/>
+			</div>
+			<div id="logout">
+				<img src="./images/logot.jpg"/>
+				<button>logout</button>
+			</div>
+		</div>
+		<div id="body">
+			<div id = "body-left">
+				<div id="information">
+					<img src="./images/pic.jpg"/>
+					<p id="welcome-information">Hi,admin</p>
+				</div>
+			</div>
+			<div id = "body-right">
+				<div id="right-header">
+					<p>Now:manage people information</p>
+				</div>
+				<div id="nav-container">
+					<ul id="nav">
+						<li><button>add information</button></li>
+						<li><button>delete information</button></li>
+					</ul>
+				</div>
+				<div id="search">
+					<div id="search-s">
+						<select name="qtype">
+							<option value="">query type</option>
+							<option value="email">email</option>
+							<option value="name">name</option>
+						</select>
+						<select name="sgroup">
+							<option value="">select group</option>
+							<option value="aa">aa</option>
+							<option value="bb">bb</option>
+							<option value="cc">cc</option>
+						</select>
+					</div>
+					<div id="search-q">
+						<input type="text" name="queryinfo">
+						<button>query information</button>
+					</div>	
+				</div>
+				<div id="dbresult">
+					dbresult block
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<p>copyright mm</p>
+		</div>
+	</div>
+</body>
+</html>

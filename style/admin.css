@@ -46,13 +46,13 @@
 }
 #right-header{
     height: 20px;
-    width: 1000px;
+    width: 100%;
     float: left;
     background-color: red;
 }
 #nav-container{
     height: 100px;
-    width: 700px;
+    width: 400px;
     padding-top: 25px;
     float: left;
     background-color: pink;
@@ -62,7 +62,7 @@
     width:500px;
     float: right;
     margin: auto;
-    padding-top: 45px;   
+    padding-top: 40px;   
 }
 #search-s{
     height: 15px;
@@ -70,11 +70,15 @@
     float: right;
     margin: auto;    
 }
+#search-s select{
+    width:110px;
+    margin-right: 10px
+}
 #search-q{
     height: 15px;
     width:500px;
     float: right;
-    margin: auto;    
+    margin: 10px;    
 }
 #dbresult{
     width: 98%;
@@ -98,7 +102,7 @@ h1{
     height: 40%;
 }
 table{
-    width: 60%;
+    width: 50%;
     border-collapse: collapse;
 }
 table,tr,td{
@@ -198,7 +202,7 @@ div#scan-container{
 }
 #nav{
     height: 500px
-    width: 600px;
+    width: 400px;
     padding-top: 20px;
 }
 #nav li{
@@ -219,4 +223,31 @@ div#scan-container{
 #nav button:hover{
     color: white;
     background: url(../images/nav_on.gif);
+}
+.bodystyle{ 
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: url(../images/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+#title{
+    padding-top: 12%;
+    text-align: center;
+}
+#title p{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: orange;
+
+}
+#login{
+    margin-top: 5%;
+    margin-left: 33%
+}
+#login table{
+    text-align: center;
+    font-weight: bold;
 }
