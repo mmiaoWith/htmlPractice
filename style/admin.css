@@ -244,10 +244,48 @@ div#scan-container{
 
 }
 #login{
+    width: 40%;
+    height: 40%;
     margin-top: 5%;
-    margin-left: 33%
+    margin-left: 40%
 }
-#login table{
+#login input{
+    border-radius: 1px;
+    width: 50%;
+    height: 30px;
+    margin-bottom: 7px;
+    background: none;
+    float: left;
+}
+input::-webkit-input-placeholder {
+    color:black;
     text-align: center;
-    font-weight: bold;
+    font-size: 0.5rem;
+}
+input:-moz-placeholder {
+    color:black;
+  text-align: center;
+    font-size: 0.5rem;
+}
+input:-ms-placeholder {
+    color:black;
+  text-align: center;
+    font-size: 0.5rem;
+}
+input:-o-placeholder {
+    color:black;
+  text-align: center;
+    font-size: 0.5rem;
+}
+
+input:placeholder {
+    color:black;
+    text-align: center;
+    font-size: 0.5rem;
+}
+#login button{
+    border-radius: 1px;
+    height: 30px;
+    width: 70px;
+    margin-left: 38%;
 }
