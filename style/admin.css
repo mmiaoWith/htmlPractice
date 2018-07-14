@@ -27,11 +27,6 @@
     float: left;
     background-color: grey;
 }
-#logout{
-    margin-right: 30px;
-    float: right;
-    background-color: yellow;
-}
 #body-left{
     height: 30%;
     width: 20%;
@@ -52,22 +47,22 @@
 }
 #nav-container{
     height: 100px;
-    width: 400px;
+    width: auto;
     padding-top: 25px;
     float: left;
     background-color: pink;
 }
 #search{
-    height: 30px;
-    width:500px;
+    height: 100px;
+    width:300px;
     float: right;
     margin: auto;
     padding-top: 40px;   
 }
 #search-s{
     height: 15px;
-    width:500px;
-    float: right;
+    width:300px;
+    float: left;
     margin: auto;    
 }
 #search-s select{
@@ -76,13 +71,16 @@
 }
 #search-q{
     height: 15px;
-    width:500px;
+    width:300px;
     float: right;
     margin: 10px;    
 }
+#search-q input{
+	width: 50%;
+}
 #dbresult{
     width: 98%;
-    height: 80%;
+    height: 70%;
 	float:left;
 	margin:5px 5px auto 5px;
     background-color: blue;
@@ -202,18 +200,18 @@ div#scan-container{
 }
 #nav{
     height: 500px
-    width: 400px;
+    width: auto;
     padding-top: 20px;
 }
 #nav li{
-    width: 170px;
+    width: auto;
     margin-right: 1px;
     float: left;
 }
 #nav button{
     color: #3636;
     display: block;
-    width: 150px;
+    width: auto;
     height: 37px;
     font-size: 16px;
     line-height: 37px;
@@ -283,9 +281,23 @@ input:placeholder {
     text-align: center;
     font-size: 0.5rem;
 }
+#logout{
+	height: 80px;
+    width: 80px;
+    margin-right: 30px;
+    float: right;
+    background-color: yellow;
+}
+#logout img{
+	float: left;
+}
+#logout a{
+	float: right;
+}
 #login button{
     border-radius: 1px;
     height: 30px;
     width: 70px;
     margin-left: 38%;
+	float: left;
 }
